@@ -6,9 +6,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Jonathan Gallimore"]
   spec.email         = ["jon@jrg.me.uk"]
 
-  spec.summary       = "TODO: Write a short summary, because Rubygems requires one."
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
-  spec.license       = "MIT"
+  spec.summary       = "Jakarta EE theme for project pages"
+  spec.homepage      = "https://github.com/jgallimore/eclise-fdn-jakarta-ee-theme"
+  spec.license       = "Eclipse EPL v2"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README)!i) }
 
