@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "eclipse-fdn-jakarta-ee-theme"
-  spec.version       = "0.1.0"
+  spec.version       = "0.1.1"
   spec.authors       = ["Jonathan Gallimore"]
   spec.email         = ["jon@jrg.me.uk"]
 
