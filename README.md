@@ -22,5 +22,5 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install eclise-fdn-jakarta-ee-theme
+    $ gem install eclipse-fdn-jakarta-ee-theme
 
