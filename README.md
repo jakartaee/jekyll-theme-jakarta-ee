@@ -1,8 +1,11 @@
-# eclise-fdn-jakarta-ee-theme
+# eclipse-fdn-jakarta-ee-theme
 
 This theme is currently experimental, but intended to provide the branding for Jakarta EE projects using GitHub pages for their documentation.
 This Jekyll theme is intended to copy the theme of the main https://jakarte.ee website so the projects use branding that is consistent with
 the main website.
+
+
+![Screenshot](https://raw.githubusercontent.com/jgallimore/eclipse-fdn-jakarta-ee-theme/master/screenshot.png)
 
 # Using the theme on your GitHub pages site
 
