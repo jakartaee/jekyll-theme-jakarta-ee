@@ -1,11 +1,11 @@
-# eclipse-fdn-jakarta-ee-theme
+# jekyll-theme-jakarta-ee
 
 This theme is currently experimental, but intended to provide the branding for Jakarta EE projects using GitHub pages for their documentation.
 This Jekyll theme is intended to copy the theme of the main https://jakarte.ee website so the projects use branding that is consistent with
 the main website.
 
 
-![Screenshot](https://raw.githubusercontent.com/jgallimore/eclipse-fdn-jakarta-ee-theme/master/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/jgallimore/jekyll-theme-jakarta-ee/master/screenshot.png)
 
 # Using the theme on your GitHub pages site
 
@@ -16,7 +16,7 @@ theme.
 
 To use this theme in GitHub pages, simply specify:
 
-`remote_theme: jgallimore/eclipse-fdn-jakarta-ee-theme` in `_config.yml` at the root of the `gh-pages` branch.
+`remote_theme: jgallimore/jekyll-theme-jakarta-ee` in `_config.yml` at the root of the `gh-pages` branch.
 NOTE: this theme is currently being reviewed, and will move to a GitHub repository owned by the Eclipse Foundation.
 
 Once the project has been set to use the theme, the project team should review each page on the site to ensure it renders correctly.
@@ -41,7 +41,7 @@ Instructions:
 ````
 source 'https://rubygems.org'
 gem 'github-pages', group: :jekyll_plugins
-gem 'eclipse-fdn-jakarta-ee-theme'
+gem 'jekyll-theme-jakarta-ee'
 ````
 
 * (1 time only) Install the `bundler` gem: `gem install bundler`
@@ -50,13 +50,13 @@ gem 'eclipse-fdn-jakarta-ee-theme'
 
 * Switch the theme in `_config.yml`. Change this
 ````
-remote_theme: jgallimore/eclipse-fdn-jakarta-ee-theme
+remote_theme: jgallimore/jekyll-theme-jakarta-ee
 ````
 
 to
 
 ````
-theme: eclipse-fdn-jakarta-ee-theme
+theme: jekyll-theme-jakarta-ee
 ````
 
 This will make sure the locally installed Gem will be used to render the site.
@@ -75,10 +75,10 @@ Pre-requisites:
 
 * Install the dependencies: `bundle install`
 
-* Build the Gem: `gem build eclipse-fdn-jakarta-ee-theme.gemspec`
+* Build the Gem: `gem build jekyll-theme-jakarta-ee.gemspec`
 
 Pushing the Gem to RubyGems
 
-(please update the version number in `eclipse-fdn-jakarta-ee-theme.gemspec`)
-* `gem push eclipse-fdn-jakarta-ee-theme-*.gem`
+(please update the version number in `jekyll-theme-jakarta-ee.gemspec`)
+* `gem push jekyll-theme-jakarta-ee-*.gem`
 
