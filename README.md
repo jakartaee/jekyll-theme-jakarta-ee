@@ -5,7 +5,7 @@ This Jekyll theme is intended to copy the theme of the main https://jakarte.ee w
 the main website.
 
 
-![Screenshot](https://raw.githubusercontent.com/jgallimore/jekyll-theme-jakarta-ee/master/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/jakartaee/jekyll-theme-jakarta-ee/master/screenshot.png)
 
 # Using the theme on your GitHub pages site
 
@@ -16,7 +16,7 @@ theme.
 
 To use this theme in GitHub pages, simply specify:
 
-`remote_theme: jgallimore/jekyll-theme-jakarta-ee` in `_config.yml` at the root of the `gh-pages` branch.
+`remote_theme: jakartaee/jekyll-theme-jakarta-ee` in `_config.yml` at the root of the `gh-pages` branch.
 NOTE: this theme is currently being reviewed, and will move to a GitHub repository owned by the Eclipse Foundation.
 
 Once the project has been set to use the theme, the project team should review each page on the site to ensure it renders correctly.
@@ -50,7 +50,7 @@ gem 'jekyll-theme-jakarta-ee'
 
 * Switch the theme in `_config.yml`. Change this
 ````
-remote_theme: jgallimore/jekyll-theme-jakarta-ee
+remote_theme: jakartaee/jekyll-theme-jakarta-ee
 ````
 
 to
