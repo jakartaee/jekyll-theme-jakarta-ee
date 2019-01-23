@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "Jakarta EE theme for project pages"
   spec.homepage      = "https://github.com/jakartaee/jekyll-theme-jakarta-ee"
-  spec.license       = "Eclipse EPL v2"
+  spec.license       = "EPL-2.0"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README)!i) }
 
