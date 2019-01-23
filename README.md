@@ -1,5 +1,7 @@
 # jekyll-theme-jakarta-ee
 
+[![Build Status](https://travis-ci.org/jakartaee/jekyll-theme-jakarta-ee.svg?branch=master)](https://travis-ci.org/jakartaee/jekyll-theme-jakarta-ee)
+
 This theme is currently experimental, but intended to provide the branding for Jakarta EE projects using GitHub pages for their documentation.
 This Jekyll theme is intended to copy the theme of the main https://jakarte.ee website so the projects use branding that is consistent with
 the main website.

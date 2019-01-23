@@ -1,0 +1,18 @@
+language: ruby
+rvm:
+  - 2.1.0
+  - 2.2.7
+  - 2.3.4
+  - 2.4.1
+  
+# branch whitelist
+branches:
+  only:
+  - master
+  
+script:
+  - gem build jekyll-theme-jakarta-ee.gemspec
+
+# Optional: disable email notifications about the outcome of your builds
+notifications:
+  email: false
