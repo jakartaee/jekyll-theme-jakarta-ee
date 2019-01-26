@@ -19,13 +19,52 @@ theme.
 To use this theme in GitHub pages, simply specify:
 
 `remote_theme: jakartaee/jekyll-theme-jakarta-ee` in `_config.yml` at the root of the `gh-pages` branch.
-NOTE: this theme is currently being reviewed, and will move to a GitHub repository owned by the Eclipse Foundation.
 
 Once the project has been set to use the theme, the project team should review each page on the site to ensure it renders correctly.
 Any problems with the theme should be raised as an issue on this project, and pull requests are most welcome.
 
 If you are publishing html files directly from `gh-pages`, please note that these are likely to require some additional work to ensure
 the correct CSS and Javascipt is pulled in.
+
+# Configuring the project page
+
+The `_config.yml` file can contain variables to control the content in the
+Project Resources box on the right side of the page:
+
+* `links.source` - a URL to the source code
+* `links.javadocs` - a URL to the javadocs
+* `links.docs` - a URL to other documentation
+* `links.faq` - a URL to Frequently Asked Questions
+* `links.download` - a URL to a download page
+* `links.hide_issuetracker` - set to true to disable the default link to the project's Issue Tracker page
+* `links.mailinglist` - a URL to the project's mailing list
+
+For example, the configuration for the JavaMail project page sets these links:
+
+```
+links:
+  source: https://github.com/eclipse-ee4j/javamail
+  javadocs: docs/api/
+  download: https://github.com/eclipse-ee4j/javamail/releases
+  mailinglist: https://accounts.eclipse.org/mailing-list/javamail-dev
+  faq: FAQ
+```
+
+Note that some of the links are relative references to other pages in the
+`gh-pages` branch.
+
+# Converting a javaee GitHub pages site
+
+Some of the javaee GitHub organization projects have existing `gh-pages`
+web sites that are being contributed to Eclipse.
+These sites can be converted to the new scheme by replacing the `theme`
+entry with the `remote_theme` entry specified above, and by changing the
+links in the `_config.yml` file.
+
+The `_layouts` directory can be removed.
+
+The `assets` directory can most likely be removed, unless it contains
+assets (e.g., images, css) used by pages in the web site.
 
 # Running the site locally
 
