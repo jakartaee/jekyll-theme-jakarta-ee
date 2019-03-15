@@ -1,18 +1,22 @@
 language: ruby
 rvm:
-  - 2.1.0
-  - 2.2.7
-  - 2.3.4
-  - 2.4.1
-  
-# branch whitelist
+- 2.1.0
+- 2.2.7
+- 2.3.4
+- 2.4.1
 branches:
   only:
   - master
-  
 script:
-  - gem build jekyll-theme-jakarta-ee.gemspec
-
-# Optional: disable email notifications about the outcome of your builds
+- gem build jekyll-theme-jakarta-ee.gemspec
 notifications:
   email: false
+deploy:
+  provider: rubygems
+  api_key:
+    secure: YWEYkPdbw2E9hqB3R9g6aWqvopjF4B+5geMQXEyGhzzNq66bWncU19x2gkpevrfmWuKBUqPXEbYP8mfo6lQQWMtO1muiuBZbwlaRas2vg/uXx1J497BRllVVPjP0m0Nc1uvAAp8UYecMppUHyEcgb9B1YVOZMSulsJfhKb3WCygVNAdI8+U5XvTJx5fmLa33ObIMYDJVb1HYTzmnNlhCp/IsND5QI3SZ4OjJFxEMH/hzY9ilmWKNuPGOcf0axQKpU7i0FV4GkyMZULJIv2vl1ijuY4/xCI5wKq3n4LcFRFxWayQN8a5QWHD5SnlWnZhumu9loUW86VwwicixZmJpLOSvteRDNMekBpArxnL3MZgCzhD8+Ckm2YQAjztPaJOneKHKPHTozj99gSlP3Csbi/O+A0ueSH52nCCdQ8KEb1zhilRzjoBBsKI31p49HANpUYJDXGT44bm2VfiLjw6f9y6F/L/+Y/3I83aveGjFSdKEwYjGmWoKEeX3jZAdCVpRVywB05aewB5+gV6htZ9qpeixDuKs9tD1FcDY/WcvnUqqFAw/vbKeBwnMLnvc6ySWBzPnp3iPk2GwiuzUWbCcOVB+Ft2c7DR+abzbuilDsQPZiEIf6ux2j6ckOJvMm5cDAhihj23aMkx/GGpvliNxAf49uEvRIypdasxvR0Hc8AE=
+  gem: jekyll-theme-jakarta-ee.gemspec
+  on:
+    tags: true
+    repo: jakartaee/jekyll-theme-jakarta-ee
+    ruby: 2.1.0
