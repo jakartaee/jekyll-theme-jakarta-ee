@@ -1,6 +1,7 @@
 # jekyll-theme-jakarta-ee
 
 [![Build Status](https://travis-ci.org/jakartaee/jekyll-theme-jakarta-ee.svg?branch=master)](https://travis-ci.org/jakartaee/jekyll-theme-jakarta-ee)
+[![Gem Version](https://badge.fury.io/rb/jekyll-theme-jakarta-ee.svg)](https://badge.fury.io/rb/jekyll-theme-jakarta-ee)
 
 This theme is currently experimental, but intended to provide the branding for Jakarta EE projects using GitHub pages for their documentation.
 This Jekyll theme is intended to copy the theme of the main https://jakarte.ee website so the projects use branding that is consistent with
@@ -120,6 +121,7 @@ Pre-requisites:
 
 Pushing the Gem to RubyGems
 
-(please update the version number in `jekyll-theme-jakarta-ee.gemspec`)
-* `gem push jekyll-theme-jakarta-ee-*.gem`
+* Update the version number in `jekyll-theme-jakarta-ee.gemspec`
+* Create a tag with the new version number
+* Push commit and tag to github `git push origin master --tags`
 
