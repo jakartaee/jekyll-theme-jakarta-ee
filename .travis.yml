@@ -2,8 +2,6 @@ language: ruby
 rvm:
 - 2.1.0
 - 2.2.7
-- 2.3.4
-- 2.4.1
 script:
 - gem build jekyll-theme-jakarta-ee.gemspec
 notifications:
