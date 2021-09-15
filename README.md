@@ -1,6 +1,5 @@
 # jekyll-theme-jakarta-ee
 
-[![Build Status](https://travis-ci.org/jakartaee/jekyll-theme-jakarta-ee.svg?branch=master)](https://travis-ci.org/jakartaee/jekyll-theme-jakarta-ee)
 [![Gem Version](https://badge.fury.io/rb/jekyll-theme-jakarta-ee.svg)](https://badge.fury.io/rb/jekyll-theme-jakarta-ee)
 
 This theme is currently experimental, but intended to provide the branding for Jakarta EE projects using GitHub pages for their documentation.
