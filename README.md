@@ -1,4 +1,4 @@
-# jekyll-theme-jakarta-ee
+## jekyll-theme-jakarta-ee
 
 [![Build Status](https://travis-ci.org/jakartaee/jekyll-theme-jakarta-ee.svg?branch=master)](https://travis-ci.org/jakartaee/jekyll-theme-jakarta-ee)
 [![Gem Version](https://badge.fury.io/rb/jekyll-theme-jakarta-ee.svg)](https://badge.fury.io/rb/jekyll-theme-jakarta-ee)
@@ -7,12 +7,9 @@ This theme is currently experimental, but intended to provide the branding for J
 This Jekyll theme is intended to copy the theme of the main https://jakarte.ee website so the projects use branding that is consistent with
 the main website.
 
+## Using the theme on your GitHub pages site
 
-![Screenshot](https://raw.githubusercontent.com/jakartaee/jekyll-theme-jakarta-ee/master/screenshot.png)
-
-# Using the theme on your GitHub pages site
-
-Jakarta EE projects typically publish their documentation using the GitHub pages functionality of the source code repository on GitHub. 
+Jakarta EE projects typically publish their documentation using the GitHub pages functionality of the source code repository on GitHub.
 This involves pushing the documentation materials to the `gh-pages` branch in the repository. Once content has been pushed to this branch
 it is publish statically at `https://eclipse-ee4j.github.io/<projectname>`. Without a theme, the site will be published using a default
 theme.
@@ -27,7 +24,7 @@ Any problems with the theme should be raised as an issue on this project, and pu
 If you are publishing html files directly from `gh-pages`, please note that these are likely to require some additional work to ensure
 the correct CSS and Javascipt is pulled in.
 
-# Configuring the project page
+## Configuring the project page
 
 The `_config.yml` file can contain variables to control the content in the
 Project Resources box on the right side of the page:
@@ -54,7 +51,7 @@ links:
 Note that some of the links are relative references to other pages in the
 `gh-pages` branch.
 
-# Converting a javaee GitHub pages site
+## Converting a javaee GitHub pages site
 
 Some of the javaee GitHub organization projects have existing `gh-pages`
 web sites that are being contributed to Eclipse.
@@ -67,7 +64,7 @@ The `_layouts` directory can be removed.
 The `assets` directory can most likely be removed, unless it contains
 assets (e.g., images, css) used by pages in the web site.
 
-# Running the site locally
+## Running the site locally
 
 Follow these steps to run and check your project's site locally on your machine. Further instructions for Jekyll and GitHub pages can be
 found here:
@@ -105,7 +102,7 @@ This will make sure the locally installed Gem will be used to render the site.
 
 * Run the Jekyll site locally: `bundle exec jekyll serve`
 
-# Building the theme (only necessary if you wish to make changes)
+## Building the theme (only necessary if you wish to make changes)
 
 To build the theme itself, clone this repository (or your own fork of it), and do the following:
 
