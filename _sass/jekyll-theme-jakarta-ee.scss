@@ -24,7 +24,15 @@ td {
   font-size: 32px;
 }
 
-#custom-search-form .form-control {
-  height: 16px;
+#custom-search-form {
   width: 95%;
+  .form-control {
+    height: 20px;
+  }
+  .btn-search {
+      font-size: 0;
+      padding: 6px 27px;
+      width: auto;
+      vertical-align: middle;
+  }
 }
