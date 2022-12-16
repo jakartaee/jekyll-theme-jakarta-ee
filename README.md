@@ -115,11 +115,10 @@ Pre-requisites:
 
 * Install the dependencies: `bundle install`
 
-* Build the Gem: `gem build jekyll-theme-jakarta-ee.gemspec`
-
 Pushing the Gem to RubyGems
 
 1. Update the version number in: `jekyll-theme-jakarta-ee.gemspec`.
-2. Commit and push the new version.
-3. Publish gem: `gem push jekyll-theme-jakarta-ee-*.gem`
+2. Build the Gem: `gem build jekyll-theme-jakarta-ee.gemspec`
+3. Commit and push the new version: `git add . && git commit -s -m "prepare for a new release"`
+4. Publish gem: `gem push jekyll-theme-jakarta-ee-*.gem`
 
